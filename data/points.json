@@ -4,7 +4,7 @@
     "api": "https://consumerrights.wiki/api.php",
     "url": "https://consumerrights.wiki/w/User:Louis/Rebuttal_to_the_ESA_on_AB_1921_and_Stop_Killing_Games",
     "revid": 57389,
-    "synced_at": "2026-06-12T06:00:48.075Z",
+    "synced_at": "2026-06-12T10:39:57.995Z",
     "stale": false
   },
   "points": [
@@ -65,7 +65,7 @@
       ],
       "anchor": "\"Nearly_the_same_cost\"_is_wrong_about_how_cloud_servers_bill,_and_the_rest_is_a_one-time_job",
       "sec_hash": "4bfce10a480ab1b2",
-      "stale_content": true,
+      "stale_content": false,
       "removed": false
     },
     {
@@ -125,7 +125,7 @@
       ],
       "anchor": "Time-limited_licenses_are_a_risk_publishers_choose,_and_they_already_handle_it_with_patches_and_delisting",
       "sec_hash": "87ad8d898930985a",
-      "stale_content": true,
+      "stale_content": false,
       "removed": false
     },
     {
@@ -155,7 +155,7 @@
       ],
       "anchor": "Section_1201_makes_fan_preservation_a_federal_crime,_and_the_Copyright_Office_twice_refused_to_loosen_it",
       "sec_hash": "2eb4b0bec1d8958e",
-      "stale_content": true,
+      "stale_content": false,
       "removed": false
     },
     {
@@ -170,7 +170,7 @@
       ],
       "anchor": "The_\"lack_of_knowledge\"_line_is_an_insult_that_named_engineers_reject",
       "sec_hash": "3752b3d79285a5a6",
-      "stale_content": true,
+      "stale_content": false,
       "removed": false
     },
     {
