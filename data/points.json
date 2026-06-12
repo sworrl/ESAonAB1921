@@ -3,8 +3,8 @@
     "page": "User:Louis/Rebuttal_to_the_ESA_on_AB_1921_and_Stop_Killing_Games",
     "api": "https://consumerrights.wiki/api.php",
     "url": "https://consumerrights.wiki/w/User:Louis/Rebuttal_to_the_ESA_on_AB_1921_and_Stop_Killing_Games",
-    "revid": 57595,
-    "synced_at": "2026-06-12T20:25:42.318Z",
+    "revid": 57604,
+    "synced_at": "2026-06-12T22:46:53.725Z",
     "stale": false
   },
   "points": [
@@ -186,6 +186,20 @@
       "anchor": "The_bill's_three_requirements_and_FULU's_position",
       "sec_hash": "87ac5499016c1c91",
       "stale_content": false,
+      "removed": false
+    },
+    {
+      "id": "the-esa-s-answer-to-a-dead-game-is-to-buy-it-aga",
+      "title": "The ESA's answer to a dead game is to buy it again, or rent it back through a subscription",
+      "esa_quote": "Opponents also disagreed over the market for older video games. They claimed that \"there remains a substantial market for classic games\" and, as in past proceedings, provided examples of \"a vibrant and growing market for authorized versions of classic games that could be jeopardized by the broad exemption proposed here,\" including the classic games offered by ESA's members such as re-releases sales and making the games available using subscription services. They also suggested that the existence of secondary markets demonstrates that there are alternatives to circumvention and any \"unwillingness\" to acquire works from those markets is unrelated to the prohibition on circumventing access controls.",
+      "summary": "The same 2024 Register's Recommendation records the ESA's other answer to a game going dark: there is no real problem, because the buyer can purchase it again or rent it back. Opponents of the exemption, the ESA among them, told the Copyright Office that a market for older games already exists, pointed to re-releases and to titles ESA members make available through subscription services, and argued that these authorized and secondary markets are an alternative to circumvention.",
+      "variants": [
+        "The same 2024 Register's Recommendation records the ESA's other answer to a game going dark: there is no real problem, because the buyer can purchase it again or rent it back. Opponents of the exemption, the ESA among them, told the Copyright Office that a market for older games already exists, pointed to re-releases and to titles ESA members make available through subscription services, and argued that these authorized and secondary markets are an alternative to circumvention."
+      ],
+      "anchor": "The_ESA's_answer_to_a_dead_game_is_to_buy_it_again,_or_rent_it_back_through_a_subscription",
+      "sec_hash": "c1f6ed54410aa717",
+      "stale_content": false,
+      "needs_review": true,
       "removed": false
     }
   ]
