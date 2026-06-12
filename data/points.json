@@ -4,7 +4,7 @@
     "api": "https://consumerrights.wiki/api.php",
     "url": "https://consumerrights.wiki/w/User:Louis/Rebuttal_to_the_ESA_on_AB_1921_and_Stop_Killing_Games",
     "revid": 57595,
-    "synced_at": "2026-06-12T17:17:18.678Z",
+    "synced_at": "2026-06-12T20:25:42.318Z",
     "stale": false
   },
   "points": [
@@ -20,7 +20,7 @@
       ],
       "anchor": "The_bill_does_not_say_\"run_it_forever.\"_It_gives_three_exits,_and_one_of_them_is_just_a_refund",
       "sec_hash": "7d5d84c643f56ade",
-      "stale_content": true,
+      "stale_content": false,
       "removed": false
     },
     {
@@ -65,7 +65,7 @@
       ],
       "anchor": "\"Nearly_the_same_cost\"_is_wrong_about_how_cloud_servers_bill,_and_the_rest_is_a_one-time_job",
       "sec_hash": "098b413187bfaba2",
-      "stale_content": true,
+      "stale_content": false,
       "removed": false
     },
     {
