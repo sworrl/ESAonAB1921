@@ -1,0 +1,37 @@
+{
+	admin off
+	auto_https disable_redirects
+}
+
+:80, :443 {
+	tls /etc/caddy/certs/cert.pem /etc/caddy/certs/cert.key
+
+	root * /var/www/savestate
+	encode zstd gzip
+
+	# Delivery relay: loopback-only Node process, memory-only, no retention
+	reverse_proxy /api/* 127.0.0.1:8125
+
+	file_server
+
+	header {
+		# Same policy as the meta tag, plus frame-ancestors, which meta cannot set
+		Content-Security-Policy "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-src https://www.openstreetmap.org; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Frame-Options "DENY"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "no-referrer"
+		Permissions-Policy "geolocation=(self), camera=(), microphone=(), payment=(), usb=(), interest-cohort=(), browsing-topics=()"
+		Cross-Origin-Opener-Policy "same-origin"
+		Cross-Origin-Resource-Policy "same-origin"
+		-Server
+		-X-Powered-By
+	}
+
+	@data path /data/*
+	header @data Cache-Control "max-age=300"
+	@static path *.css *.js *.png
+	header @static Cache-Control "max-age=3600"
+
+	# Deliberately no access log: the site's privacy promise is "no logs we control".
+}

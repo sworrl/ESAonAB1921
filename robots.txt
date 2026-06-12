@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://sworrl.github.io/ESAonAB1921/sitemap.xml

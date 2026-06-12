@@ -1,0 +1,24 @@
+[Unit]
+Description=SAVESTATE letter delivery relay (memory-only, no retention)
+After=network-online.target postfix.service
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/bin/node /opt/savestate/relay.mjs
+EnvironmentFile=-/etc/savestate-relay.env
+Restart=always
+RestartSec=3
+DynamicUser=yes
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+NoNewPrivileges=true
+# no MemoryDenyWriteExecute: V8's JIT needs writable-then-executable pages
+CapabilityBoundingSet=
+SystemCallFilter=@system-service
+# stdout/stderr carry counters and failures only, never letter content
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

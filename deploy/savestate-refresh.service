@@ -1,0 +1,14 @@
+[Unit]
+Description=Refresh SAVESTATE bill and wiki data
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/var/www/savestate
+ExecStart=/usr/bin/node /var/www/savestate/scripts/update-data.mjs
+# The script only rewrites data/*.json; nothing else is writable by design.
+ReadWritePaths=/var/www/savestate/data
+ProtectSystem=strict
+PrivateTmp=true
+NoNewPrivileges=true

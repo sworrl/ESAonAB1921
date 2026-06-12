@@ -1,0 +1,66 @@
+{
+  "measure": "AB-1921",
+  "session": "2025-2026",
+  "official_title": "Digital games: ordinary use.",
+  "popular_name": "Protect Our Games Act",
+  "author": {
+    "name": "Chris Ward",
+    "title": "Assemblymember",
+    "party": "D",
+    "district": "AD-78",
+    "city": "San Diego"
+  },
+  "phase": "senate-committee",
+  "house_location": "Senate",
+  "type_of_measure": "Active Bill - In Committee Process",
+  "last_amended": "2026-05-18",
+  "committee": {
+    "name": "Senate Privacy, Digital Technologies, and Consumer Protection",
+    "short": "PDTCP",
+    "hearing_date": "2026-06-22",
+    "letter_deadline": "2026-06-15",
+    "call_day": "2026-06-19"
+  },
+  "second_committee": {
+    "name": "Senate Business, Professions and Economic Development",
+    "short": "BPED",
+    "hearing_date": null
+  },
+  "assembly_vote": {
+    "ayes": 43,
+    "noes": 16,
+    "date": "2026-05-27"
+  },
+  "history": [
+    {
+      "date": "2026-06-10",
+      "action": "Referred to Coms. on  P., D.T., & C.P. and  B. P. & E.D."
+    },
+    {
+      "date": "2026-05-28",
+      "action": "In Senate.  Read first time.  To Com. on RLS. for assignment."
+    },
+    {
+      "date": "2026-05-27",
+      "action": "Read third time. Passed. Ordered to the Senate. (Ayes 43. Noes 16.)"
+    },
+    {
+      "date": "2026-05-19",
+      "action": "Read second time. Ordered to third reading."
+    },
+    {
+      "date": "2026-05-18",
+      "action": "Read second time and amended.  Ordered returned to second reading."
+    }
+  ],
+  "links": {
+    "status": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1921",
+    "text": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1921",
+    "wiki": "https://consumerrights.wiki/w/User:Louis/Rebuttal_to_the_ESA_on_AB_1921_and_Stop_Killing_Games",
+    "portal": "https://calegislation.lc.ca.gov/Advocates/",
+    "agenda": "https://spdtcp.senate.ca.gov/agenda"
+  },
+  "stale": false,
+  "synced_at": "2026-06-12T00:08:03.716Z",
+  "notice": null
+}

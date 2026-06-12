@@ -1,0 +1,65 @@
+{
+  "committee": {
+    "name": "Senate Privacy, Digital Technologies, and Consumer Protection",
+    "email": "SPDTCP.Committee@sen.ca.gov",
+    "phone": "(916) 651-1548",
+    "office": "1020 N Street, Room 568, Sacramento, CA 95814",
+    "home": "https://spdtcp.senate.ca.gov",
+    "agenda": "https://spdtcp.senate.ca.gov/agenda"
+  },
+  "members": [
+    { "name": "Christopher Cabaldon", "role": "Chair", "party": "D", "district": 3, "phone": "(916) 651-4003", "suite": "Room 7320" },
+    { "name": "Brian W. Jones", "role": "Vice Chair", "party": "R", "district": 40, "phone": "(916) 651-4040", "suite": "Suite 7640" },
+    { "name": "Lena Gonzalez", "role": "Member", "party": "D", "district": 33, "phone": "(916) 651-4033", "suite": "Suite 7510" },
+    { "name": "Jerry McNerney", "role": "Member", "party": "D", "district": 5, "phone": "(916) 651-4005", "suite": "Suite 6640" },
+    { "name": "Rosilicie Ochoa Bogh", "role": "Member", "party": "R", "district": 19, "phone": "(916) 651-4019", "suite": "Suite 7220" },
+    { "name": "Steve Padilla", "role": "Member", "party": "D", "district": 18, "phone": "(916) 651-4018", "suite": "Suite 7630" },
+    { "name": "Eloise Gómez Reyes", "role": "Member", "party": "D", "district": 29, "phone": "(916) 651-4029", "suite": "Suite 7210" },
+    { "name": "Thomas Umberg", "role": "Member", "party": "D", "district": 34, "phone": "(916) 651-4034", "suite": "Suite 6610" },
+    { "name": "Scott Wiener", "role": "Member", "party": "D", "district": 11, "phone": "(916) 651-4011", "suite": "Suite 8620" }
+  ],
+  "author": {
+    "name": "Assemblymember Chris Ward",
+    "district": "AD-78",
+    "site": "https://a78.asmdc.org",
+    "comments_note": "LegInfo has a Comments To Author form on the bill status page."
+  },
+  "governor": {
+    "name": "Gavin Newsom",
+    "contact": "https://www.gov.ca.gov/contact/",
+    "phone": "(916) 445-2841"
+  },
+  "lookup": {
+    "rep": "https://findyourrep.legislature.ca.gov/",
+    "senators": "https://www.senate.ca.gov/senators"
+  },
+  "portal": {
+    "url": "https://calegislation.lc.ca.gov/Advocates/",
+    "note": "The Legislature's position letter portal. Letters submitted there are tallied in the official committee analysis. Free account required. Most committees cut off letters one week before the hearing."
+  },
+  "places": {
+    "hearing": {
+      "label": "Hearing location",
+      "address": "1021 O Street, Sacramento, CA 95814",
+      "lat": 38.5777,
+      "lon": -121.4944,
+      "note": "The exact hearing room is printed on the committee agenda, usually posted about a week before the hearing."
+    },
+    "committee_office": {
+      "label": "Committee office",
+      "address": "1020 N Street, Room 568, Sacramento, CA 95814",
+      "lat": 38.5766,
+      "lon": -121.4934,
+      "note": "Staff office for the Privacy, Digital Technologies, and Consumer Protection Committee. Letters can be dropped off here."
+    },
+    "capitol_offices": {
+      "label": "Senators' Capitol offices",
+      "address": "1021 O Street, Sacramento, CA 95814-4900",
+      "lat": 38.5777,
+      "lon": -121.4944,
+      "note": "All nine committee members have offices in this building. Suite numbers are listed with each senator."
+    }
+  },
+  "senate_district_site": "https://sd{DD}.senate.ca.gov",
+  "senate_district_phone": "(916) 651-40{DD}"
+}

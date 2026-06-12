@@ -1,0 +1,192 @@
+{
+  "wiki": {
+    "page": "User:Louis/Rebuttal_to_the_ESA_on_AB_1921_and_Stop_Killing_Games",
+    "api": "https://consumerrights.wiki/api.php",
+    "url": "https://consumerrights.wiki/w/User:Louis/Rebuttal_to_the_ESA_on_AB_1921_and_Stop_Killing_Games",
+    "revid": 57358,
+    "synced_at": "2026-06-12T00:08:03.862Z",
+    "stale": false
+  },
+  "points": [
+    {
+      "id": "three-exits",
+      "title": "Three ways to comply, and one is a refund",
+      "esa_quote": "Under Assembly Bill 1921, the Protect Our Games Act, when a game publisher decides to shut down a \"server-connected\" digital game, developers would be forced to choose between keeping it running indefinitely, rebuilding the game to work without technical support or providing a full refund to everyone...",
+      "summary": "\"Keeping it running indefinitely\" is not in the bill. Section 20664 lists three exits when support ends: a standalone version, a patch that removes the server requirement, or a full refund. The publisher picks, after 60 days of notice.",
+      "variants": [
+        "The ESA's op-ed in the Sacramento Bee says the bill forces publishers to choose between \"keeping it running indefinitely,\" rebuilding, or refunds. The first option is not in the bill. Section 20664 requires one of three things when support ends: a standalone version, a patch that removes the server requirement, or a full refund. The publisher picks.",
+        "Opponents describe a duty to run servers forever. I read the bill text, and that duty does not exist. On shutdown the publisher chooses one option: ship a standalone build, ship a patch so the game runs without the company's servers, or refund the purchase price. Sixty days of notice, one of three exits, done.",
+        "AB 1921 asks for a standalone version, a patch, or the buyer's money back when a game is shut down. Perpetual server operation appears nowhere in the text. It is the obligation the bill is designed to let publishers avoid while keeping customers whole."
+      ],
+      "anchor": "The_bill_does_not_say_\"run_it_forever.\"_It_gives_three_exits,_and_one_of_them_is_just_a_refund",
+      "sec_hash": "02aab1c86be120a8",
+      "stale_content": false,
+      "removed": false
+    },
+    {
+      "id": "prospective-scope",
+      "title": "Covers re-releases, grandfathers everything before 2027",
+      "esa_quote": "The legislation would apply to both new video games and existing games that are remastered or re-released.",
+      "summary": "True, and deliberate: the re-release hook stops publishers from dodging the law by re-selling old titles under a new SKU. The same clause makes the bill prospective. Games first sold or re-released before January 1, 2027 are untouched.",
+      "variants": [
+        "The bill reaches only games first sold or re-released on or after January 1, 2027. Every game on the market today is grandfathered. Nobody retrofits a ten-year-old MMO. New releases get designed with a shutdown plan from the start, the way engineers already work when a requirement is known up front.",
+        "Nothing here is retroactive. The duties attach to games first sold or re-released after January 1, 2027, which gives every publisher months of lead time to plan an end-of-life path or price refund risk into a new release.",
+        "Yes, the bill covers remasters and re-releases after January 1, 2027. That clause exists so a publisher cannot dodge the law by re-selling an old title under a new SKU. The same clause grandfathers everything sold before that date."
+      ],
+      "anchor": "The_bill_covers_remasters_and_re-releases,_and_the_ESA_is_right_about_that",
+      "sec_hash": "104b51d268f7210a",
+      "stale_content": false,
+      "removed": false
+    },
+    {
+      "id": "not-forever",
+      "title": "\"Access forever\" is the lobby's phrase, not the bill's",
+      "esa_quote": "The bill, authored by Assemblymember Chris Ward, D-San Diego, intends to provide consumers with a guarantee that if they pay for access to play an online game, they will keep that access for as long as they want.",
+      "summary": "The committee analysis describes the duty on shutdown as a patch, a usable copy, or a full refund. All three are finite. The \"forever\" framing comes from the ESA's op-ed, not from the bill or its author.",
+      "variants": [
+        "\"Access for as long as they want\" is the ESA's wording, not the Legislature's. The committee analysis describes the duty on shutdown as a patch, a copy of the game usable without the publisher's services, or a full refund. None of those is forever.",
+        "When you hear that this bill guarantees access forever, check where the phrase comes from. It comes from the industry op-ed, not the bill. The bill's duties end the moment a publisher ships a patch or a standalone copy, or refunds the buyer.",
+        "The author and the committee analysis describe three compliance options, all of them finite: a patch, a standalone copy, or a refund. The \"forever\" framing was supplied by the lobby opposing the bill."
+      ],
+      "anchor": "\"Access_forever\"_is_the_ESA's_words,_not_the_bill's",
+      "sec_hash": "4047615f34274618",
+      "stale_content": false,
+      "removed": false
+    },
+    {
+      "id": "server-costs",
+      "title": "Server costs fall with the player count",
+      "esa_quote": "When a game's popularity fades, that infrastructure continues to run, for a fraction of the audience, at nearly the same cost.",
+      "summary": "Cloud game hosting is metered. Amazon's GameLift scales to zero instances when nobody is playing. The fixed floor that remains (databases, anti-cheat licenses, a skeleton crew) is the argument for the bill's exit ramp: patch once, stop paying.",
+      "variants": [
+        "The op-ed claims a fading game keeps costing \"nearly the same\" to run. Game-server hosting bills by usage. Amazon's GameLift, the service many studios rent, scales to zero instances when nobody is playing. The end-of-life work the bill asks for is a one-time engineering task, not a forever operating bill.",
+        "There is an honest cost argument buried in the op-ed: databases, anti-cheat licenses, and a skeleton crew do not scale to zero. The bill's answer is the exit ramp. Ship the offline patch once and stop paying. Studios with far less money than Ubisoft have already done that handoff.",
+        "Cloud compute is metered. As players leave, matchmaking cost falls with them, and GameLift runs zero server instances during inactivity. The fixed floor that remains is the reason the bill offers a one-time patch or standalone build instead of demanding live service."
+      ],
+      "anchor": "\"Nearly_the_same_cost\"_is_wrong_about_how_cloud_servers_bill,_and_the_rest_is_a_one-time_job",
+      "sec_hash": "6c8b03d6b0651b37",
+      "stale_content": false,
+      "removed": false
+    },
+    {
+      "id": "small-studios",
+      "title": "The small-studio stat describes companies this bill barely touches",
+      "esa_quote": "nearly two thirds of video game software companies in the U.S. operate with less than 10 employees.",
+      "summary": "The figure is real and comes from the ESA's own 2026 Essential Facts report. The same report puts 29 percent of the industry workforce in eight sites of 1,000 or more employees. The shutdowns that started this fight came from Ubisoft and Meta, not ten-person studios.",
+      "variants": [
+        "The \"two thirds under 10 employees\" figure comes from the ESA's own 2026 Essential Facts report, and those are not the companies this fight is about. The same report shows 29 percent of industry workers concentrated in eight sites of 1,000 or more. The games that got switched off, The Crew and Echo VR, came from Ubisoft and Meta.",
+        "Small studios are being used as a shield. Free-to-play titles are exempt, and a small team shipping a buy-to-play game can comply by building offline-first, the cheapest option on the table. The publishers that deleted paid games from customer libraries are among the largest companies in the industry.",
+        "65 percent of US game software companies have fewer than ten employees, says the ESA's own report. Ubisoft, which revoked The Crew from buyers' libraries in 2024, is not one of them. A statute is judged by the conduct it binds, and this one binds the conduct that started the fight."
+      ],
+      "anchor": "The_\"two-thirds_under_10_employees\"_stat_is_real_and_aimed_at_the_wrong_target",
+      "sec_hash": "773ebd519e6ffa88",
+      "stale_content": false,
+      "removed": false
+    },
+    {
+      "id": "car-analogy",
+      "title": "Unsupported cars still drive; The Crew got deleted",
+      "esa_quote": "We don't expect innovators to continue supporting their very first car model, their original smartphone or an outdated operating system software, but this bill suggests that online video games should last forever.",
+      "summary": "Ending support and revoking function are different events. An unsupported car still drives and a Windows 7 machine still boots. The Crew stopped working entirely in March 2024, single-player included, and Ubisoft then revoked it from buyers' libraries.",
+      "variants": [
+        "The op-ed compares games to old cars and phones that lose support. An unsupported car still drives. A Windows 7 machine still boots. The Crew, after Ubisoft ended it in March 2024, stopped working entirely, including single-player, and was revoked from buyers' libraries days later. Ending support is normal. Remotely ending function is what this bill regulates.",
+        "Nobody expects a carmaker to support a 2014 model forever, and AB 1921 asks for nothing like that. The honest version of the analogy would be a carmaker that remotely disables the engine and then tows the car out of your driveway. That is what happened to people who bought The Crew.",
+        "When Microsoft ended Windows 7 support, the machines kept booting. When a publisher ends an online-only game, the product is gone along with the money paid for it. Support and function are different things, and the op-ed's analogy trades on confusing them."
+      ],
+      "anchor": "The_car-and-phone_analogy_compares_ending_support_to_remote-detonating_the_engine",
+      "sec_hash": "19bf42f1fbbd2afe",
+      "stale_content": false,
+      "removed": false
+    },
+    {
+      "id": "ab2426-precedent",
+      "title": "California already regulates digital sales (AB 2426)",
+      "esa_quote": "AB 1921 bill creates an entirely new, unprecedented category of consumer products.",
+      "summary": "AB 2426 has regulated digital-goods sales in California since January 1, 2025, including barring \"buy\" buttons for revocable licenses without plain-language disclosure. The committee analysis notes AB 1921 shares definitions with it.",
+      "variants": [
+        "The \"unprecedented category\" claim skips a law already on the books. AB 2426 has regulated digital-goods sales in California since January 1, 2025, down to barring \"buy\" buttons for revocable licenses without plain-language disclosure. The committee analysis notes that AB 1921 shares its definitions with that statute.",
+        "California decided this policy direction in 2024 with AB 2426: calling a revocable license a purchase requires disclosure. AB 1921 is the next step on the same line. If you sold it as a purchase, the buyer keeps something when you pull the plug.",
+        "This is consumer-sales law, not new territory. AB 2426, in force since January 2025, already polices how digital goods are marketed in this state, and AB 1921 borrows definitions directly from it."
+      ],
+      "anchor": "\"Unprecedented_category\"_is_false,_and_several_existing_laws_already_impose_post-sale_duties",
+      "sec_hash": "c831ddcdcefd6963",
+      "stale_content": false,
+      "removed": false
+    },
+    {
+      "id": "licensed-music",
+      "title": "Expiring music licenses already get patched out",
+      "esa_quote": "many of today's popular games include licensed music, likeness rights and branding that might be time-limited. A legal requirement to keep games playable indefinitely will put game publishers in an impossible situation where they are either renegotiating licenses in perpetuity or altering games to change the creator's original intent and gameplay experience.",
+      "summary": "Publishers already patch and delist over expiring licenses. Remedy replaced David Bowie's \"Space Oddity\" in Alan Wake with an original track in 2024. Microsoft delisted Forza Horizon 4 in December 2024 while owners kept full access. The refund option alters nothing at all.",
+      "variants": [
+        "On expiring music licenses, publishers already run the playbook the ESA calls impossible. Remedy patched David Bowie's \"Space Oddity\" out of Alan Wake in 2024 and replaced it with an original track. Microsoft delisted Forza Horizon 4 in December 2024 while existing owners kept playing. The bill asks for that same competence on the way out the door.",
+        "The \"impossible situation\" on licensed content has an existing industry answer: swap the track, patch the build, delist the store page. Remedy did it with Alan Wake, twice. And the bill's refund option requires altering no content at all.",
+        "Nothing in the bill freezes a game's assets. A final patch may remove or replace an expired song, exactly as mid-life patches already do. Time-limited licenses are a risk publishers choose and already manage."
+      ],
+      "anchor": "Time-limited_licenses_are_a_risk_publishers_choose,_and_they_already_handle_it_with_patches_and_delisting",
+      "sec_hash": "5a8be392e337de37",
+      "stale_content": false,
+      "removed": false
+    },
+    {
+      "id": "copyright-preemption",
+      "title": "A refund cannot conflict with copyright",
+      "esa_quote": "This comes at great expense to the original creators and is in direct conflict with the basic principles of America's longstanding copyright laws.",
+      "summary": "AB 1921 regulates sale terms: notice, a working handoff, or a refund. It compels no copying, distribution, or derivative works, which is the extra element that defeats federal preemption under 17 U.S.C. section 301. ProCD v. Zeidenberg drew this line in 1996.",
+      "variants": [
+        "The claimed conflict with copyright law does not survive a reading of either text. AB 1921 regulates the terms of a sale: notice, a working handoff, or a refund. It compels no copying, no distribution, and no derivative works, which is the extra element that defeats preemption under 17 U.S.C. section 301.",
+        "In ProCD v. Zeidenberg the Seventh Circuit held that obligations between two parties to a sale are not equivalent to copyright's exclusive rights. AB 1921 sits on that side of the line. Its fallback remedy is handing money back, and copyright law has nothing to say about refunds.",
+        "A statute whose fallback remedy is a refund cannot be \"in direct conflict\" with copyright. Refunds involve no copying. The other two options ship the publisher's own build through the publisher's own channels."
+      ],
+      "anchor": "\"Direct_conflict_with_copyright\"_is_wrong,_and_the_copyright_angle_cuts_against_the_ESA",
+      "sec_hash": "6a225d027c2a5a68",
+      "stale_content": false,
+      "removed": false
+    },
+    {
+      "id": "section-1201",
+      "title": "Federal law blocks fan-run servers (Section 1201)",
+      "esa_quote": "[W]hile the Register appreciates that proponents have suggested broad safeguards that could deter recreational uses of video games in some cases, she believes that such requirements are not specific enough to conclude that they would prevent market harms.",
+      "summary": "Fans would keep dead games running for free, and Section 1201 of the DMCA makes that a federal offense: bypassing server authentication is circumvention, sharing the tools is trafficking. The 2024 exemption covers only libraries, archives, and museums on premises, and the ESA opposed going further.",
+      "variants": [
+        "Communities would keep these games running for free, and federal law forbids it. Bypassing server authentication is circumvention under Section 1201, and distributing the tools is trafficking under the same statute. The Copyright Office renewed only an on-premises exemption for libraries, archives, and museums in 2024, and has declined broader preservation access in two rulemakings running. State sales law is the lane that remains.",
+        "\"Let fans host it\" is currently a federal offense. Section 1201 bans both the act and the tools. The 2024 exemption covers only libraries and archives on physical premises, and the ESA opposed even research access to preserved games. The industry telling California that communities can handle preservation lobbied to keep community hosting illegal.",
+        "The cheapest end-of-life option, handing a dead game to the people who love it, is blocked by Section 1201 of the DMCA, not by economics. Until Congress fixes that statute, a state-level notice-and-remedy rule is the consumer protection that is actually available."
+      ],
+      "anchor": "Section_1201_makes_fan_preservation_a_federal_crime,_and_the_Copyright_Office_twice_refused_to_loosen_it",
+      "sec_hash": "5521937dcefc6a0d",
+      "stale_content": false,
+      "removed": false
+    },
+    {
+      "id": "engineers",
+      "title": "The engineers say graceful shutdown is normal",
+      "esa_quote": "shows a fundamental lack of knowledge about how games are built and maintained today",
+      "summary": "After Meta shut down Echo VR, John Carmack said \"every game should make sure they still work at some level without central server support\" and that user-run servers \"can actually save on hosting costs.\" The technical objection does not come from the technical people.",
+      "variants": [
+        "The op-ed says the bill \"shows a fundamental lack of knowledge about how games are built.\" After Meta shut down Echo VR, John Carmack, former CTO of Oculus, said \"every game should make sure they still work at some level without central server support,\" and that user-run servers \"can actually save on hosting costs.\" The technical objection does not come from the technical people.",
+        "John Carmack's advice to studios after the Echo VR shutdown reads like a compliance memo for this bill: keep games working at some level without central servers, treat user-run servers as a cost saver, keep builds disciplined enough that open-sourcing stays possible. Graceful shutdown is engineering practice, not legislative fantasy.",
+        "Accusing supporters of not understanding game development is hard to square with the engineers on record. Carmack called standalone capability something \"every game\" should have. Some studios already ship end-of-life patches. The bill standardizes a practice the field's most credentialed people recommend."
+      ],
+      "anchor": "The_\"lack_of_knowledge\"_line_is_an_insult_that_named_engineers_reject",
+      "sec_hash": "c617fc7d08b2f1b9",
+      "stale_content": false,
+      "removed": false
+    },
+    {
+      "id": "plain-summary",
+      "title": "What the bill requires, in one paragraph",
+      "esa_quote": null,
+      "summary": "For buy-to-play games first sold or re-released after January 1, 2027: 60 days of notice before shutdown, then a standalone version, a patch, or a full refund, publisher's choice. Subscriptions, free-to-play games, and permanent DRM-free downloads are exempt.",
+      "variants": [
+        "Here is the whole obligation: for buy-to-play games first sold or re-released after January 1, 2027, give 60 days of notice before a shutdown, then ship a standalone version, ship a patch, or refund the purchase price. Subscriptions, free-to-play games, and DRM-free downloads are exempt.",
+        "The bill fits in a sentence. Sixty days of notice, then one of three: standalone build, compatibility patch, or full refund, for buy-to-play games sold after January 1, 2027. A publisher that plans its shutdown never writes the refund check.",
+        "AB 1921 is a notice-and-remedy statute. Notice: 60 days, in the game and on the website, naming what ends and when. Remedy: standalone version, patch, or refund, publisher's choice. Exempt: subscriptions, free-to-play, and permanent DRM-free downloads."
+      ],
+      "anchor": "The_bill's_three_requirements_and_FULU's_position",
+      "sec_hash": "87ac5499016c1c91",
+      "stale_content": false,
+      "removed": false
+    }
+  ]
+}

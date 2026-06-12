@@ -1,0 +1,6 @@
+Contact: https://github.com/FalconTechnix/ESAonAB1921/issues
+Expires: 2027-06-11T00:00:00.000Z
+Preferred-Languages: en
+Policy: https://github.com/FalconTechnix/ESAonAB1921#security-model
+# This site is static, stores nothing, and has no accounts. If you found a
+# way to make it hurt a visitor anyway, please tell us before telling Twitter.
