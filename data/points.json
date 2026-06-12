@@ -3,8 +3,8 @@
     "page": "User:Louis/Rebuttal_to_the_ESA_on_AB_1921_and_Stop_Killing_Games",
     "api": "https://consumerrights.wiki/api.php",
     "url": "https://consumerrights.wiki/w/User:Louis/Rebuttal_to_the_ESA_on_AB_1921_and_Stop_Killing_Games",
-    "revid": 57358,
-    "synced_at": "2026-06-12T01:22:28.541Z",
+    "revid": 57389,
+    "synced_at": "2026-06-12T06:00:48.075Z",
     "stale": false
   },
   "points": [
@@ -64,8 +64,8 @@
         "Cloud compute is metered. As players leave, matchmaking cost falls with them, and GameLift runs zero server instances during inactivity. The fixed floor that remains is the reason the bill offers a one-time patch or standalone build instead of demanding live service."
       ],
       "anchor": "\"Nearly_the_same_cost\"_is_wrong_about_how_cloud_servers_bill,_and_the_rest_is_a_one-time_job",
-      "sec_hash": "6c8b03d6b0651b37",
-      "stale_content": false,
+      "sec_hash": "4bfce10a480ab1b2",
+      "stale_content": true,
       "removed": false
     },
     {
@@ -124,8 +124,8 @@
         "Nothing in the bill freezes a game's assets. A final patch may remove or replace an expired song, exactly as mid-life patches already do. Time-limited licenses are a risk publishers choose and already manage."
       ],
       "anchor": "Time-limited_licenses_are_a_risk_publishers_choose,_and_they_already_handle_it_with_patches_and_delisting",
-      "sec_hash": "5a8be392e337de37",
-      "stale_content": false,
+      "sec_hash": "87ad8d898930985a",
+      "stale_content": true,
       "removed": false
     },
     {
@@ -154,8 +154,8 @@
         "The cheapest end-of-life option, handing a dead game to the people who love it, is blocked by Section 1201 of the DMCA, not by economics. Until Congress fixes that statute, a state-level notice-and-remedy rule is the consumer protection that is actually available."
       ],
       "anchor": "Section_1201_makes_fan_preservation_a_federal_crime,_and_the_Copyright_Office_twice_refused_to_loosen_it",
-      "sec_hash": "5521937dcefc6a0d",
-      "stale_content": false,
+      "sec_hash": "2eb4b0bec1d8958e",
+      "stale_content": true,
       "removed": false
     },
     {
@@ -169,8 +169,8 @@
         "Accusing supporters of not understanding game development is hard to square with the engineers on record. Carmack called standalone capability something \"every game\" should have. Some studios already ship end-of-life patches. The bill standardizes a practice the field's most credentialed people recommend."
       ],
       "anchor": "The_\"lack_of_knowledge\"_line_is_an_insult_that_named_engineers_reject",
-      "sec_hash": "c617fc7d08b2f1b9",
-      "stale_content": false,
+      "sec_hash": "3752b3d79285a5a6",
+      "stale_content": true,
       "removed": false
     },
     {
