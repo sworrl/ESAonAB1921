@@ -1137,7 +1137,7 @@ function wireMisc() {
 function stampAiNote() {
   const el = $("ai-note");
   if (!el) return;
-  const set = t => { el.textContent = "Yes, AI was used to build this site. Specifically Claude Code (Fable 5). Last published " + t + "."; };
+  const set = t => { el.textContent = "Yes, AI was used to build this site. Specifically Claude Code (Fable 5), with the no-ai-slop skill. Last published " + t + "."; };
   fetch("build.json").then(r => r.ok ? r.json() : null).then(b => {
     set(new Date((b && b.built_at) ? b.built_at : S.bill.synced_at).toLocaleString());
   }).catch(() => set(new Date(S.bill.synced_at).toLocaleString()));
