@@ -8,7 +8,7 @@ A single-page tool for supporting California **AB 1921, the Protect Our Games Ac
 
 1. **Zero data.** No backend, no accounts, no cookies, no analytics, no logging we control. The letter is assembled by JavaScript in the visitor's browser and leaves through *their* email app, the Legislature's own portal, or their printer. Location detection runs on-device against district boundary files bundled with the site; coordinates are never transmitted. There is no server code in this repo at all.
 2. **A human sends every message.** The tool drafts; the visitor edits and sends under their own name. Nothing auto-sends, ever. This is what separates constituent mail (which offices count) from blast spam (which they bin).
-3. **Human prose only.** Every letter paragraph was written by hand, in plain English, with checkable facts. The builder varies phrasing between users so identical blasts don't happen, and a "robot detector" warns visitors who paste AI text into the draft (em dashes, "delve", "furthermore", the usual tells).
+3. **Human prose only.** Every letter paragraph was written by hand, in plain English, with checkable facts. The builder varies phrasing between users so identical blasts don't happen, and a "robot detector" warns visitors who paste AI-sounding text into the draft (em dashes, hedge words, and the usual machine tells, all listed as patterns in `app.js`).
 4. **The data updates itself; the words don't.** A scheduled job refreshes bill status from LegInfo and re-syncs against the wiki. If a wiki section changes, its card gets flagged for human re-summary. The refresher never rewrites hand-written prose.
 
 ## Repo layout
