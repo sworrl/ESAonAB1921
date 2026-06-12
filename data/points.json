@@ -3,8 +3,8 @@
     "page": "User:Louis/Rebuttal_to_the_ESA_on_AB_1921_and_Stop_Killing_Games",
     "api": "https://consumerrights.wiki/api.php",
     "url": "https://consumerrights.wiki/w/User:Louis/Rebuttal_to_the_ESA_on_AB_1921_and_Stop_Killing_Games",
-    "revid": 57389,
-    "synced_at": "2026-06-12T14:15:30.456Z",
+    "revid": 57595,
+    "synced_at": "2026-06-12T17:17:18.678Z",
     "stale": false
   },
   "points": [
@@ -19,8 +19,8 @@
         "AB 1921 asks for a standalone version, a patch, or the buyer's money back when a game is shut down. Perpetual server operation appears nowhere in the text. It is the obligation the bill is designed to let publishers avoid while keeping customers whole."
       ],
       "anchor": "The_bill_does_not_say_\"run_it_forever.\"_It_gives_three_exits,_and_one_of_them_is_just_a_refund",
-      "sec_hash": "02aab1c86be120a8",
-      "stale_content": false,
+      "sec_hash": "7d5d84c643f56ade",
+      "stale_content": true,
       "removed": false
     },
     {
@@ -64,8 +64,8 @@
         "Cloud compute is metered. As players leave, matchmaking cost falls with them, and GameLift runs zero server instances during inactivity. The fixed floor that remains is the reason the bill offers a one-time patch or standalone build instead of demanding live service."
       ],
       "anchor": "\"Nearly_the_same_cost\"_is_wrong_about_how_cloud_servers_bill,_and_the_rest_is_a_one-time_job",
-      "sec_hash": "4bfce10a480ab1b2",
-      "stale_content": false,
+      "sec_hash": "098b413187bfaba2",
+      "stale_content": true,
       "removed": false
     },
     {
