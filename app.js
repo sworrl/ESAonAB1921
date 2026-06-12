@@ -268,6 +268,10 @@ const OPENERS = {
   "governor": [
     () => "I'm writing to ask you to sign AB 1921, the Protect Our Games Act.",
     () => "Please sign AB 1921 when it reaches your desk."
+  ],
+  "author": [
+    () => "I'm writing to thank you for authoring AB 1921, the Protect Our Games Act.",
+    () => "Thank you for carrying AB 1921, the Protect Our Games Act, through the Assembly."
   ]
 };
 const CLOSERS = [
@@ -279,6 +283,10 @@ const CLOSERS = [
 const CLOSERS_GOV = [
   "Please sign it. Thank you.",
   "Signing this bill costs taxpayers nothing and tells every publisher selling into California that a sale is a sale. Thank you."
+];
+const CLOSERS_AUTHOR = [
+  "Thank you for fighting for this. It matters to the people who pay for games.",
+  "I'm grateful you took this on. Please see it through."
 ];
 
 function residenceLine(rnd, recipient) {
@@ -395,7 +403,9 @@ function buildLetterFor(r, seed) {
   lines.push("");
   const opener = (r.kind === "governor")
     ? pick(rnd, OPENERS["governor"])()
-    : pick(rnd, OPENERS[phaseKey])(S.bill.committee.name);
+    : r.kind === "author"
+      ? pick(rnd, OPENERS["author"])()
+      : pick(rnd, OPENERS[phaseKey])(S.bill.committee.name);
   const res = residenceLine(rnd, r);
   let first = res ? opener + " " + res : opener;
   if (r.role_line) first += " " + r.role_line;
@@ -409,7 +419,7 @@ function buildLetterFor(r, seed) {
   }
   for (const p of paras) { lines.push(p); lines.push(""); }
 
-  lines.push(pick(rnd, r.kind === "governor" ? CLOSERS_GOV : CLOSERS));
+  lines.push(pick(rnd, r.kind === "governor" ? CLOSERS_GOV : r.kind === "author" ? CLOSERS_AUTHOR : CLOSERS));
   lines.push("");
   lines.push(name || "[Your name]");
   const state = $("f-state").value.trim();
@@ -503,7 +513,7 @@ function deciders() {
     name: t.author.name, role: "Wrote the bill", kind: "author",
     method: "form", link: b.links.status, phone: null,
     salutation: "Dear Assemblymember Ward:",
-    role_line: "Thank you for authoring AB 1921. I'm asking the Senate to pass it without weakening it."
+    role_line: "Please keep fighting for it, and hold the line against amendments that weaken it."
   });
 
   return list;
