@@ -208,11 +208,17 @@
     <textarea id="letter" rows="18" spellcheck="true" aria-label="Your letter draft"></textarea>
     <div id="slop-warn" class="slop-warn hidden"></div>
     <p class="fine">This draft is a starting point, not a script. Change anything. A letter in your own voice outranks a perfect form letter every time, and identical blasts get tallied, not read.</p>
+    <!-- One-click relay send is disabled until the relay (server/relay.mjs) is hosted off
+         GitHub Pages with a mail service configured (see deploy/relay.env.example). The
+         wiring in app.js is guarded, so uncommenting this block re-enables the button.
+         Until then, the buttons below send the same letter from the visitor's own mail app.
     <div class="relay-row">
       <button type="button" id="btn-relay" class="btn-amber">Send it for me · delivers to the committee inbox</button>
       <span id="relay-status" class="fine"></span>
     </div>
-    <p class="fine">What this does on a self-hosted copy: your reviewed letter is handed to a small relay and emailed to the committee from that site's own system address, with <strong>your</strong> name signed in the body and your email set as Reply-To and CC, so the letter is from you, the office replies to you, and you keep a copy. It is sent from the site's address, not spoofed from yours, because forging your address is how phishing works and the mail would bounce. The relay holds the letter in memory only, no copy and no log, and carries no identity but the sender's. This GitHub-hosted copy runs no relay, so this button falls back to the buttons below, which send the same letter from your own mail app or the portal.</p>
+    <p class="fine">What this does on a self-hosted copy: your reviewed letter is handed to a small relay and emailed to the committee from that site's own system address, with your name signed in the body and your email set as Reply-To and CC, so the letter is from you, the office replies to you, and you keep a copy. It is sent from the site's address, not spoofed from yours, because forging your address is how phishing works and the mail would bounce. The relay holds the letter in memory only, no copy and no log, and carries no identity but the sender's.</p>
+    -->
+    <p class="fine">Pick how to send below: open it in your own email app addressed to the committee, copy it for the position-letter portal, or save it. Your letter goes from your account, under your name.</p>
     <div class="send-row">
       <label>Send to:
         <select id="send-recipient"></select>

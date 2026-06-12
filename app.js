@@ -775,7 +775,8 @@ function wireBuilder() {
   $("btn-txt").addEventListener("click", () => {
     download("AB1921-letter.txt", $("letter").value, "text/plain");
   });
-  $("btn-relay").addEventListener("click", async () => {
+  const relayBtn = $("btn-relay");
+  if (relayBtn) relayBtn.addEventListener("click", async () => {
     const btn = $("btn-relay"), st = $("relay-status");
     const letter = $("letter").value;
     if (!letter.trim()) { flash(btn, "Generate first"); return; }
