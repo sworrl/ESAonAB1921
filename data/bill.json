@@ -13,7 +13,7 @@
   "phase": "senate-committee-2",
   "house_location": "Senate",
   "type_of_measure": "Active Bill - In Committee Process",
-  "last_amended": "2026-05-18",
+  "last_amended": "2026-06-23",
   "committee": {
     "name": "Senate Privacy, Digital Technologies, and Consumer Protection",
     "short": "PDTCP",
@@ -24,7 +24,7 @@
   "second_committee": {
     "name": "Senate Business, Professions and Economic Development",
     "short": "BPED",
-    "hearing_date": null
+    "hearing_date": "2026-06-29"
   },
   "assembly_vote": {
     "ayes": 43,
@@ -32,6 +32,14 @@
     "date": "2026-05-27"
   },
   "history": [
+    {
+      "date": "2026-06-23",
+      "action": "From committee chair, with author's amendments:  Amend, and re-refer to committee.  Read second time, amended, and re-referred to Com. on  B. P. & E.D."
+    },
+    {
+      "date": "2026-06-23",
+      "action": "From committee: Do pass and re-refer to Com. on  B. P. & E.D. (Ayes  6. Noes  2.) (June  22). Re-referred to Com. on  B. P. & E.D."
+    },
     {
       "date": "2026-06-10",
       "action": "Referred to Coms. on  P., D.T., & C.P. and  B. P. & E.D."
@@ -43,14 +51,6 @@
     {
       "date": "2026-05-27",
       "action": "Read third time. Passed. Ordered to the Senate. (Ayes 43. Noes 16.)"
-    },
-    {
-      "date": "2026-05-19",
-      "action": "Read second time. Ordered to third reading."
-    },
-    {
-      "date": "2026-05-18",
-      "action": "Read second time and amended.  Ordered returned to second reading."
     }
   ],
   "links": {
@@ -61,6 +61,6 @@
     "agenda": "https://spdtcp.senate.ca.gov/agenda"
   },
   "stale": false,
-  "synced_at": "2026-06-24T00:10:30.138Z",
-  "notice": null
+  "synced_at": "2026-06-24T04:34:36.633Z",
+  "notice": "LegInfo now shows the bill in: Sen Business, Professions and Economic Development. Member cards on this page still show the first committee; check the official status link for the current one."
 }
